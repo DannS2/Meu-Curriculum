@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Meu Curriculo</title>
+    <title>Meu Curriculum</title>
+
+    <!--Font Huballi-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <!--Font Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9063952fb8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Cabeçalho-->
-    <h1>Meu Curriculum</h1>
-    <img id="foto-cabecalho" width="100" src="imagens/eu.jpeg">
-    <P>Meu <b>curriculum</b> em HTMl</P>
+    <div id="header">
+        <div id="nameAndTitle">
+            
+            <h1>Daniel Silva Pereira de Souza</h1>
+            <h2>Full Stack Developer</h2>
+            
+        </div>
+    </div>
 
-    <!--Conteúdo-->
-    <h2>
-        <ul>
-            <li><a target="_blank" href="https://www.linkedin.com/in/daniel-silva-72160831a/" >Linkedin</a></li>
-        </ul>
-    </h2>
-    <h2>Informações Pessoais</h2>
-    <ul>
-        <li><b>Nome</b> Daniel Silva Pereira de Souza</li>
-        <li><b>Telefone</b> 16 993506535</li>
-        <li><b>Email</b>ds.pereiradsouza2@gmail.com</li>
-    </ul>
-    <h3>Contatos</h3>
-    <h3>Endereço</h3>
-    <h3>Experiênçia Profissional</h3>
-
-    <!--Expereriênçias-->
-    <ul>
-        <li>Jovem Aprendiz na aréa de Infraestrutura</li>
-        <li>Designer Gráfico</li>
-    </ul>
+    <div>
+        <div id="sidebar">
+            <div class="card">
+                <h3>Contato</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>ds.pereiradsouza2@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i>(16) 99350-6535</li>
+                    <li><i class="fa-solid fa-location-pin"></i>Ribeirão Preto SP</li>
+                </ul>
+                </div>
+        </div>
+        <div id="content"></div>
+    </div>
+    
 </body>
 </html>
